@@ -1,0 +1,9 @@
+.cover__overlay {
+    height: 100%;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    grid-area: 1/1/2/2;
+    z-index: 3;
+    text-decoration: none;
+}
