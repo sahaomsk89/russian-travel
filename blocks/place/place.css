@@ -3,6 +3,7 @@
     grid-template: repeat(2, auto) / repeat(2, auto);
     gap: 48px 40px;
     padding: 0 48px 80px 48px;
+    box-sizing: border-box;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
@@ -14,7 +15,7 @@
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .place {
         gap: 48px 28px;
-        padding: 0 0 73px 0;
+        padding: 0 24px 73px 24px;
     }
 }
 
@@ -23,5 +24,9 @@
         grid-template: repeat(1, auto) / repeat(1, auto);
         gap: 32px;
         padding: 0 0 50px 0;
+    }
+
+    .place:last-of-type {
+        padding: 0 0 66px 0;
     }
 }
